@@ -1,0 +1,28 @@
+ /**
+    Author: Hristo Prashtakov
+ */
+ div .myTextArea{
+    padding-left: 10%;
+    padding-top: 20%;
+    padding-right: 10%;
+}
+
+div .myButton{
+    padding-left: 33%;
+    padding-top: 3%;
+}
+
+#textarea , #examples{
+    resize: none;
+    overflow:hidden
+}
+
+div .myExample {
+    padding-left: 10%;
+    padding-top: 20%;
+    padding-right: 10%;
+}
+
+#examples {
+    text-align: left;
+}

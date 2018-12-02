@@ -1,0 +1,40 @@
+<!--
+    Author: Hristo Prashtakov
+-->
+<html>
+    <head>
+        <link href="data/js/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" />
+        <link href="data/js/bootstrap-3.3.7-dist/css/bootstrap-theme.css" rel="stylesheet" />
+        <link href="data/css/style.css" rel="stylesheet"/>
+        <script src="data/js/jquery-3.3.1.min.js"></script>
+        <script src="data/js/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+        <script src="data/js/traduccion.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 myTextArea">
+                    <div class="form-group">
+                        <label for="comment">Ejercicio javascript_rgb:</label>
+                        <textarea class="form-control" rows="5" id="textarea"></textarea>
+                    </div> 
+                </div>
+                <div class="col-lg-6 myExample" >
+                    <div class="form-group">
+                            <label for="comment">Examples to try</label>
+                            <textarea class="form-control" rows="5" id="examples" readonly>
+RGB(255,127,2)
+RGB(0,255,120)
+RGB(0,-2,45)
+RGB(123, 45, 2)
+RGB(234. 22, 11)
+                            </textarea>
+                    </div> 
+                </div>
+                <div class="col-lg-12 myButton">
+                    <button type="button" class="btn btn-primary" onClick="checkRgb()">Translate</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
